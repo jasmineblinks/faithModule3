@@ -93,6 +93,7 @@ hr {
   text-align: center;
   font-size: 1.6em;
   color: #000;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 #specials-tile p {
@@ -128,7 +129,7 @@ hr {
     /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #menu-tile,
+
   #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
@@ -136,7 +137,6 @@ hr {
 }
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  #menu-tile,
   #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
