@@ -1,0 +1,144 @@
+body {
+  font-family: cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header-nav {
+  background-color: #cccccc;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+  text-shadow: 1px 1px 1px #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: #fff;
+}
+#nav-list a {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+
+  border-bottom: 2px solid #000;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+hr {
+  background-color: #000;
+}
+.navbar-default .icon-bar {
+  background-color: #000;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+
+#specials-tile {
+  /* height: 250px; */
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #cccccc;
+  color: #000;
+  overflow: hidden;
+}
+
+#specials-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#specials-tile span {
+  text-align: center;
+  font-size: 1.6em;
+  color: #000;
+}
+
+#specials-tile p {
+  text-align: left;
+}
+
+#text {
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.endofdown a {
+  text-decoration: underline;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.6em;
+    margin-top: 12px;
+  }
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  #menu-tile,
+  #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
